@@ -9,19 +9,30 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.12.12",
+    "@monaco-editor/react": "^4.7.0",
+    "convex": "^1.22.0",
+    "framer-motion": "^12.6.3",
+    "lucide-react": "^0.487.0",
+    "monaco-editor": "^0.52.2",
+    "next": "15.2.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.2.4"
+    "react-hot-toast": "^2.5.2",
+    "react-syntax-highlighter": "^15.6.1",
+    "svix": "^1.63.0",
+    "zustand": "^5.0.3"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
+    "@types/react-syntax-highlighter": "^15.5.13",
     "eslint": "^9",
     "eslint-config-next": "15.2.4",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
