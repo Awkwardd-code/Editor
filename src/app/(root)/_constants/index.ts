@@ -1,4 +1,4 @@
-import { Monaco } from "@monaco-editor/react";
+
 import { editor } from "monaco-editor";
 import { Theme } from "../../../types";
 
