@@ -42,7 +42,7 @@ export const getUser = query({
   },
 });
 
-/* export const upgradeToPro = mutation({
+export const upgradeToPro = mutation({
   args: {
     email: v.string(),
     lemonSqueezyCustomerId: v.string(),
@@ -66,4 +66,4 @@ export const getUser = query({
 
     return { success: true };
   },
-}); */
+});
